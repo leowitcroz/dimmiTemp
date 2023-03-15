@@ -1,9 +1,9 @@
 import { App } from "vue";
 
-import HelloWorld from "./HelloWorld.vue";
+import HeaderVue from "./HeaderVue.vue";
 
 export const install = (app: App) => {
-  app.component("HelloWorld", HelloWorld);
+  app.component("HeaderVue", HeaderVue);
 };
 
 export default install;
